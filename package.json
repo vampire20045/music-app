@@ -23,8 +23,21 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
+    ],
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "overrides": [
+      {
+        "files": ["**/*.test.js"],
+        "env": {
+          "jest": true
+        }
+      }
     ]
   },
   "browserslist": {

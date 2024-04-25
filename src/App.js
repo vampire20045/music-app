@@ -66,7 +66,7 @@ function App() {
           headers: {
             "Content-Type": "application/x-www-form-urlencoded",
           },
-          body: "grant_type=client_credentials&client_id=a77073181b7d48eb90003e3bb94ff88a&client_secret=68790982a0554d1a83427e061e371507",
+          body: "grant_type=client_credentials&client_id=76f3f2d717c249cb977d81699a6c2233&client_secret=c82e1ebc51844707805c54b317b512a8",
         });
 
         if (!response.ok) {
@@ -154,7 +154,7 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline-dark"
-                href="https://github.com/Vishesh-Pandey/v-music"
+                href="https://github.com/vampire20045"
               >
                 <i className="bi bi-github mx-2"></i>Github
               </a>
